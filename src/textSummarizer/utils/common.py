@@ -52,7 +52,7 @@ def get_size(path: Path) -> str:
     """get size in KB
 
     Args:
-        path (Path); path of the file
+        path (Path): path of the file
 
     Returns:
         str: size in KB
