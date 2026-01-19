@@ -1,0 +1,8 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/Gavesh99324/Text-Summarizer/raw/refs/heads/master/summarizer-data.zip
+  local_data-file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+  
