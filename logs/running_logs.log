@@ -1,2 +1,49 @@
 [2026-01-09 00:20:05,604: INFO: main: Welcome to our custom logging]
 [2026-01-09 23:21:03,511: INFO: main: Welcome to our custom logging]
+[2026-01-20 01:36:09,490: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-20 01:36:09,492: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-20 01:36:09,493: INFO: common: created directory at: artifacts]
+[2026-01-20 01:36:09,494: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-20 01:41:51,175: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-20 01:41:51,177: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-20 01:41:51,179: INFO: common: created directory at: artifacts]
+[2026-01-20 01:41:51,180: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-20 01:42:08,749: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-20 01:42:08,751: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-20 01:42:08,752: INFO: common: created directory at: artifacts]
+[2026-01-20 01:42:08,753: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-20 01:53:26,465: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-20 01:53:26,467: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-20 01:53:26,468: INFO: common: created directory at: artifacts]
+[2026-01-20 01:53:26,469: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-20 01:54:26,036: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-20 01:54:26,038: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-20 01:54:26,039: INFO: common: created directory at: artifacts]
+[2026-01-20 01:54:26,039: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-20 01:54:35,638: INFO: 1976652716: artifacts/data_ingestion/data.zip download with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7985:B07B9:7CA6E8:C700A9:696E92F6
+Accept-Ranges: bytes
+Date: Mon, 19 Jan 2026 20:24:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-sin-wsss1830050-SIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1768854267.515457,VS0,VE716
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: fff0b77c218022f4ae52d80150f8d9583f1b402c
+Expires: Mon, 19 Jan 2026 20:29:27 GMT
+Source-Age: 0
+
+]
