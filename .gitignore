@@ -4,3 +4,5 @@ research/samsum_dataset/
 research/pegasus-samsum/
 research/tokenizer-samsum/
 research/pegasus-samsum-model/
+
+artifacts/
