@@ -82,3 +82,9 @@ Source-Age: 0
 [2026-01-25 18:04:00,221: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 ==========x]
+[2026-01-25 23:49:54,291: INFO: utils: NumExpr defaulting to 12 threads.]
+[2026-01-26 00:13:27,902: INFO: utils: NumExpr defaulting to 12 threads.]
+[2026-01-26 00:13:31,460: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-26 00:13:31,469: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-26 00:13:31,471: INFO: common: created directory at: artifacts]
+[2026-01-26 00:13:31,471: INFO: common: created directory at: artifacts/data_validation]
