@@ -205,3 +205,127 @@ Source-Age: 0
 [2026-01-26 00:21:00,503: INFO: 340552411: validation Top 10 bigrams: [(('in', 'the'), 227), (('to', 'the'), 192), (('do', 'you'), 186), (('are', 'you'), 161), (('going', 'to'), 156), (('i', 'have'), 136), (('i', "don't"), 125), (('at', 'the'), 124), (('will', 'be'), 122), (('for', 'the'), 115)]]
 [2026-01-26 00:21:00,539: INFO: 340552411: validation Top 10 trigrams: [(('what', 'do', 'you'), 43), (('go', 'to', 'the'), 37), (('going', 'to', 'the'), 37), (('are', 'going', 'to'), 36), (('is', 'going', 'to'), 34), (('do', 'you', 'have'), 33), (('to', 'go', 'to'), 33), (('a', 'lot', 'of'), 29), (('let', 'me', 'know'), 28), (('i', 'have', 'to'), 26)]]
 [2026-01-26 00:21:00,540: INFO: 340552411: validation Bigram diversity ratio: 0.6535]
+[2026-01-26 19:40:11,484: INFO: utils: NumExpr defaulting to 12 threads.]
+[2026-01-26 19:40:15,842: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-26 19:40:15,844: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-26 19:40:15,845: INFO: common: created directory at: artifacts]
+[2026-01-26 19:40:15,847: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-26 19:40:15,977: INFO: 627638535: Dataset structure validation passed]
+[2026-01-26 19:40:16,456: ERROR: 2841408004: Duplicate entries found in train split]
+[2026-01-26 19:40:16,462: ERROR: 2841408004: Unusually short text in train split]
+[2026-01-26 19:40:16,523: ERROR: 3802380581: Column dialogue in train is not string type]
+[2026-01-26 19:40:16,524: ERROR: 3802380581: Column summary in train is not string type]
+[2026-01-26 19:40:16,525: ERROR: 3802380581: Column dialogue in test is not string type]
+[2026-01-26 19:40:16,526: ERROR: 3802380581: Column summary in test is not string type]
+[2026-01-26 19:40:16,527: ERROR: 3802380581: Column dialogue in validation is not string type]
+[2026-01-26 19:40:16,528: ERROR: 3802380581: Column summary in validation is not string type]
+[2026-01-26 19:40:16,934: INFO: 340552411: train Dialogue length stats: {'count': 14732.0, 'mean': 511.18361390171054, 'std': 402.6214360842471, 'min': 0.0, '25%': 216.0, '50%': 401.0, '75%': 694.0, 'max': 5492.0}]
+[2026-01-26 19:40:16,935: INFO: 340552411: train Summary length stats: {'count': 14732.0, 'mean': 110.13467282106978, 'std': 60.89247137091239, 'min': 3.0, '25%': 63.0, '50%': 96.0, '75%': 144.0, 'max': 300.0}]
+[2026-01-26 19:40:16,940: WARNING: 340552411: Some summaries longer than dialogues in train]
+[2026-01-26 19:40:17,176: INFO: 340552411: train Approximate vocabulary size: 80987]
+[2026-01-26 19:40:18,182: INFO: 340552411: train Top 10 bigrams: [(('in', 'the'), 3611), (('going', 'to'), 3164), (('do', 'you'), 2912), (('are', 'you'), 2911), (('to', 'the'), 2901), (('i', "don't"), 2464), (('at', 'the'), 2408), (('i', 'have'), 2365), (('i', 'think'), 2242), (('for', 'the'), 2144)]]
+[2026-01-26 19:40:19,005: INFO: 340552411: train Top 10 trigrams: [(('is', 'going', 'to'), 711), (('what', 'do', 'you'), 665), (('are', 'going', 'to'), 614), (('a', 'lot', 'of'), 552), (('go', 'to', 'the'), 539), (('i', 'need', 'to'), 534), (('to', 'go', 'to'), 504), (('i', "don't", 'know'), 502), (('i', 'have', 'to'), 493), (('going', 'to', 'the'), 453)]]
+[2026-01-26 19:40:19,006: INFO: 340552411: train Bigram diversity ratio: 0.4055]
+[2026-01-26 19:40:19,851: INFO: 340552411: test Dialogue length stats: {'count': 819.0, 'mean': 521.5982905982906, 'std': 409.38732450341814, 'min': 49.0, '25%': 226.0, '50%': 403.0, '75%': 687.5, 'max': 2793.0}]
+[2026-01-26 19:40:19,851: INFO: 340552411: test Summary length stats: {'count': 819.0, 'mean': 108.78021978021978, 'std': 58.46138925558024, 'min': 17.0, '25%': 63.0, '50%': 96.0, '75%': 142.0, 'max': 300.0}]
+[2026-01-26 19:40:19,858: WARNING: 340552411: Some summaries longer than dialogues in test]
+[2026-01-26 19:40:19,876: INFO: 340552411: test Approximate vocabulary size: 14221]
+[2026-01-26 19:40:19,971: INFO: 340552411: test Top 10 bigrams: [(('in', 'the'), 207), (('to', 'the'), 164), (('going', 'to'), 164), (('are', 'you'), 161), (('do', 'you'), 158), (('i', "don't"), 151), (('i', 'have'), 132), (('have', 'a'), 121), (('for', 'the'), 117), (('will', 'be'), 115)]]
+[2026-01-26 19:40:20,067: INFO: 340552411: test Top 10 trigrams: [(('a', 'lot', 'of'), 41), (('are', 'going', 'to'), 36), (('i', 'need', 'to'), 35), (('is', 'going', 'to'), 34), (('to', 'go', 'to'), 33), (('what', 'do', 'you'), 32), (('i', 'have', 'a'), 30), (('i', 'have', 'to'), 29), (('let', 'me', 'know'), 27), (('going', 'to', 'the'), 27)]]
+[2026-01-26 19:40:20,068: INFO: 340552411: test Bigram diversity ratio: 0.6572]
+[2026-01-26 19:40:20,876: INFO: 340552411: validation Dialogue length stats: {'count': 818.0, 'mean': 499.3960880195599, 'std': 403.63258385677415, 'min': 57.0, '25%': 208.0, '50%': 385.5, '75%': 688.0, 'max': 2950.0}]
+[2026-01-26 19:40:20,877: INFO: 340552411: validation Summary length stats: {'count': 818.0, 'mean': 110.17481662591688, 'std': 61.388822409264314, 'min': 17.0, '25%': 63.0, '50%': 96.0, '75%': 144.0, 'max': 300.0}]
+[2026-01-26 19:40:20,891: INFO: 340552411: validation Approximate vocabulary size: 13683]
+[2026-01-26 19:40:20,940: INFO: 340552411: validation Top 10 bigrams: [(('in', 'the'), 227), (('to', 'the'), 192), (('do', 'you'), 186), (('are', 'you'), 161), (('going', 'to'), 156), (('i', 'have'), 136), (('i', "don't"), 125), (('at', 'the'), 124), (('will', 'be'), 122), (('for', 'the'), 115)]]
+[2026-01-26 19:40:20,976: INFO: 340552411: validation Top 10 trigrams: [(('what', 'do', 'you'), 43), (('go', 'to', 'the'), 37), (('going', 'to', 'the'), 37), (('are', 'going', 'to'), 36), (('is', 'going', 'to'), 34), (('do', 'you', 'have'), 33), (('to', 'go', 'to'), 33), (('a', 'lot', 'of'), 29), (('let', 'me', 'know'), 28), (('i', 'have', 'to'), 26)]]
+[2026-01-26 19:40:20,977: INFO: 340552411: validation Bigram diversity ratio: 0.6535]
+[2026-01-26 19:40:21,643: ERROR: 719434905: Data validation failed]
+[2026-01-26 19:40:21,654: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-26 19:40:21,656: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-26 19:40:21,657: INFO: common: created directory at: artifacts]
+[2026-01-26 19:40:21,658: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-26 19:40:22,074: INFO: 340552411: train Dialogue length stats: {'count': 14732.0, 'mean': 511.18361390171054, 'std': 402.6214360842471, 'min': 0.0, '25%': 216.0, '50%': 401.0, '75%': 694.0, 'max': 5492.0}]
+[2026-01-26 19:40:22,074: INFO: 340552411: train Summary length stats: {'count': 14732.0, 'mean': 110.13467282106978, 'std': 60.89247137091239, 'min': 3.0, '25%': 63.0, '50%': 96.0, '75%': 144.0, 'max': 300.0}]
+[2026-01-26 19:40:22,078: WARNING: 340552411: Some summaries longer than dialogues in train]
+[2026-01-26 19:40:22,277: INFO: 340552411: train Approximate vocabulary size: 80987]
+[2026-01-26 19:40:23,316: INFO: 340552411: train Top 10 bigrams: [(('in', 'the'), 3611), (('going', 'to'), 3164), (('do', 'you'), 2912), (('are', 'you'), 2911), (('to', 'the'), 2901), (('i', "don't"), 2464), (('at', 'the'), 2408), (('i', 'have'), 2365), (('i', 'think'), 2242), (('for', 'the'), 2144)]]
+[2026-01-26 19:40:24,155: INFO: 340552411: train Top 10 trigrams: [(('is', 'going', 'to'), 711), (('what', 'do', 'you'), 665), (('are', 'going', 'to'), 614), (('a', 'lot', 'of'), 552), (('go', 'to', 'the'), 539), (('i', 'need', 'to'), 534), (('to', 'go', 'to'), 504), (('i', "don't", 'know'), 502), (('i', 'have', 'to'), 493), (('going', 'to', 'the'), 453)]]
+[2026-01-26 19:40:24,156: INFO: 340552411: train Bigram diversity ratio: 0.4055]
+[2026-01-26 19:40:25,010: INFO: 340552411: test Dialogue length stats: {'count': 819.0, 'mean': 521.5982905982906, 'std': 409.38732450341814, 'min': 49.0, '25%': 226.0, '50%': 403.0, '75%': 687.5, 'max': 2793.0}]
+[2026-01-26 19:40:25,011: INFO: 340552411: test Summary length stats: {'count': 819.0, 'mean': 108.78021978021978, 'std': 58.46138925558024, 'min': 17.0, '25%': 63.0, '50%': 96.0, '75%': 142.0, 'max': 300.0}]
+[2026-01-26 19:40:25,015: WARNING: 340552411: Some summaries longer than dialogues in test]
+[2026-01-26 19:40:25,028: INFO: 340552411: test Approximate vocabulary size: 14221]
+[2026-01-26 19:40:25,132: INFO: 340552411: test Top 10 bigrams: [(('in', 'the'), 207), (('to', 'the'), 164), (('going', 'to'), 164), (('are', 'you'), 161), (('do', 'you'), 158), (('i', "don't"), 151), (('i', 'have'), 132), (('have', 'a'), 121), (('for', 'the'), 117), (('will', 'be'), 115)]]
+[2026-01-26 19:40:25,231: INFO: 340552411: test Top 10 trigrams: [(('a', 'lot', 'of'), 41), (('are', 'going', 'to'), 36), (('i', 'need', 'to'), 35), (('is', 'going', 'to'), 34), (('to', 'go', 'to'), 33), (('what', 'do', 'you'), 32), (('i', 'have', 'a'), 30), (('i', 'have', 'to'), 29), (('let', 'me', 'know'), 27), (('going', 'to', 'the'), 27)]]
+[2026-01-26 19:40:25,232: INFO: 340552411: test Bigram diversity ratio: 0.6572]
+[2026-01-26 19:40:25,921: INFO: 340552411: validation Dialogue length stats: {'count': 818.0, 'mean': 499.3960880195599, 'std': 403.63258385677415, 'min': 57.0, '25%': 208.0, '50%': 385.5, '75%': 688.0, 'max': 2950.0}]
+[2026-01-26 19:40:25,922: INFO: 340552411: validation Summary length stats: {'count': 818.0, 'mean': 110.17481662591688, 'std': 61.388822409264314, 'min': 17.0, '25%': 63.0, '50%': 96.0, '75%': 144.0, 'max': 300.0}]
+[2026-01-26 19:40:25,940: INFO: 340552411: validation Approximate vocabulary size: 13683]
+[2026-01-26 19:40:26,000: INFO: 340552411: validation Top 10 bigrams: [(('in', 'the'), 227), (('to', 'the'), 192), (('do', 'you'), 186), (('are', 'you'), 161), (('going', 'to'), 156), (('i', 'have'), 136), (('i', "don't"), 125), (('at', 'the'), 124), (('will', 'be'), 122), (('for', 'the'), 115)]]
+[2026-01-26 19:40:26,036: INFO: 340552411: validation Top 10 trigrams: [(('what', 'do', 'you'), 43), (('go', 'to', 'the'), 37), (('going', 'to', 'the'), 37), (('are', 'going', 'to'), 36), (('is', 'going', 'to'), 34), (('do', 'you', 'have'), 33), (('to', 'go', 'to'), 33), (('a', 'lot', 'of'), 29), (('let', 'me', 'know'), 28), (('i', 'have', 'to'), 26)]]
+[2026-01-26 19:40:26,037: INFO: 340552411: validation Bigram diversity ratio: 0.6535]
+[2026-01-26 20:17:02,808: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-01-26 20:17:02,810: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-26 20:17:02,811: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-26 20:17:02,812: INFO: common: created directory at: artifacts]
+[2026-01-26 20:17:02,812: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-26 20:17:15,200: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8EF4:3B6E64:3A9F7:9411B:69777E68
+Accept-Ranges: bytes
+Date: Mon, 26 Jan 2026 14:47:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-sin-wsat1880056-SIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1769438824.239471,VS0,VE623
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ea81374f8c95cea218fb36fd55ed9593c8f3ef4a
+Expires: Mon, 26 Jan 2026 14:52:04 GMT
+Source-Age: 0
+
+]
+[2026-01-26 20:17:15,350: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+==========x]
+[2026-01-26 20:17:15,351: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-01-26 20:17:15,353: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-26 20:17:15,353: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-26 20:17:15,354: INFO: common: created directory at: artifacts]
+[2026-01-26 20:17:15,354: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-26 20:17:15,354: ERROR: main: 'DataValidation' object has no attribute 'download_files']
+Traceback (most recent call last):
+  File "G:\Python Codes\Text Summarizer\main.py", line 19, in <module>
+    data_validation.main()
+  File "G:\Python Codes\Text Summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation.download_files()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidation' object has no attribute 'download_files'
+[2026-01-26 20:18:45,188: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-01-26 20:18:45,190: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-26 20:18:45,191: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-26 20:18:45,191: INFO: common: created directory at: artifacts]
+[2026-01-26 20:18:45,191: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-26 20:18:45,191: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2026-01-26 20:18:45,280: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+==========x]
+[2026-01-26 20:18:45,280: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-01-26 20:18:45,282: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-26 20:18:45,283: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-26 20:18:45,283: INFO: common: created directory at: artifacts]
+[2026-01-26 20:18:45,283: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-26 20:18:45,284: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+==========x]
