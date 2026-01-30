@@ -450,3 +450,18 @@ Source-Age: 0
 [2026-01-29 22:33:38,921: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
 
 ==========x]
+[2026-01-31 01:58:45,066: INFO: utils: NumExpr defaulting to 12 threads.]
+[2026-01-31 02:11:50,385: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-31 02:11:50,388: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-31 02:11:50,389: INFO: common: created directory at: artifacts]
+[2026-01-31 02:11:50,390: INFO: common: created directory at: artifacts/model_trainer]
+[2026-01-31 02:17:19,920: INFO: utils: NumExpr defaulting to 12 threads.]
+[2026-01-31 02:17:21,299: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-31 02:17:21,301: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-31 02:17:21,303: INFO: common: created directory at: artifacts]
+[2026-01-31 02:17:21,304: INFO: common: created directory at: artifacts/model_trainer]
+[2026-01-31 02:18:24,872: INFO: utils: NumExpr defaulting to 12 threads.]
+[2026-01-31 02:18:26,189: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-31 02:18:26,191: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-31 02:18:26,192: INFO: common: created directory at: artifacts]
+[2026-01-31 02:18:26,193: INFO: common: created directory at: artifacts/model_trainer]
