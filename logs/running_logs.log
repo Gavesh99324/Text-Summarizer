@@ -534,3 +534,4 @@ Source-Age: 0
 [2026-01-31 12:28:57,601: INFO: main: >>>>>> stage Model Trainer Stage completed <<<<<<
 
 ==========x]
+[2026-01-31 19:56:53,033: INFO: utils: NumExpr defaulting to 12 threads.]
