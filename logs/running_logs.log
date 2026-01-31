@@ -663,3 +663,72 @@ Source-Age: 0
 [2026-01-31 23:22:54,982: INFO: server: Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)]
 [2026-01-31 23:31:56,357: INFO: utils: NumExpr defaulting to 12 threads.]
 [2026-01-31 23:32:56,959: INFO: utils: NumExpr defaulting to 12 threads.]
+[2026-01-31 23:35:40,873: INFO: utils: NumExpr defaulting to 12 threads.]
+[2026-01-31 23:35:41,955: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-01-31 23:35:41,969: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-31 23:35:41,989: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-31 23:35:41,989: INFO: common: created directory at: artifacts]
+[2026-01-31 23:35:41,989: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-01-31 23:35:53,283: INFO: data_ingestion: artifacts/data_ingestion/data.zip download with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 972A:1536BA:21D471:4325ED:697E4476
+Accept-Ranges: bytes
+Date: Sat, 31 Jan 2026 18:05:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-sin-wsat1880026-SIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1769882743.111479,VS0,VE615
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9e7a36abb40689f5111973a0ab9b00ae340fbb10
+Expires: Sat, 31 Jan 2026 18:10:43 GMT
+Source-Age: 0
+
+]
+[2026-01-31 23:35:53,380: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+==========x]
+[2026-01-31 23:35:53,380: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2026-01-31 23:35:53,382: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-31 23:35:53,383: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-31 23:35:53,384: INFO: common: created directory at: artifacts]
+[2026-01-31 23:35:53,384: INFO: common: created directory at: artifacts/data_validation]
+[2026-01-31 23:35:53,385: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+==========x]
+[2026-01-31 23:35:53,385: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2026-01-31 23:35:53,387: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-31 23:35:53,388: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-31 23:35:53,389: INFO: common: created directory at: artifacts]
+[2026-01-31 23:35:53,389: INFO: common: created directory at: artifacts/data_transformation]
+[2026-01-31 23:35:57,844: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+==========x]
+[2026-01-31 23:35:57,844: INFO: main: >>>>>> stage Model Trainer Stage started <<<<<<]
+[2026-01-31 23:35:57,846: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-01-31 23:35:57,847: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-01-31 23:35:57,848: INFO: common: created directory at: artifacts]
+[2026-01-31 23:35:57,848: INFO: common: created directory at: artifacts/model_trainer]
+[2026-02-01 00:22:37,429: INFO: main: >>>>>> stage Model Trainer Stage completed <<<<<<
+
+==========x]
+[2026-02-01 00:22:37,439: INFO: main: >>>>>> stage Model Evaluation Stage started <<<<<<]
+[2026-02-01 00:22:37,456: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-02-01 00:22:37,463: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-02-01 00:22:37,465: INFO: common: created directory at: artifacts]
+[2026-02-01 00:22:37,465: INFO: common: created directory at: artifacts/model_evaluation]
+[2026-02-01 00:26:34,519: INFO: rouge_scorer: Using default tokenizer.]
+[2026-02-01 00:26:34,792: INFO: main: >>>>>> stage Model Evaluation Stage completed <<<<<<
+
+==========x]
