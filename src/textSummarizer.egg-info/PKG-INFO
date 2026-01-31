@@ -9,7 +9,23 @@ Project-URL: Bug Tracker, https://github.com/Gavesh99324/Text-Summarizer/issues
 License-File: LICENSE
 Dynamic: author
 Dynamic: author-email
+Dynamic: description
 Dynamic: home-page
 Dynamic: license-file
 Dynamic: project-url
 Dynamic: summary
+
+# Text Summarizer
+
+## Workflows
+
+1. Update config.yaml
+2. Update params.yaml
+3. Update entity
+4. Update configuration manager in src config
+5. Update components
+6. Update pipeline
+7. Update main.py
+8. Update app.py
+
+
