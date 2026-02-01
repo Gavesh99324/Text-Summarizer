@@ -64,7 +64,7 @@ jobs:
 
     Continuous-Deployment:
         needs: build-and-push-ecr-image
-        runs-on: ubuntu-latest
+        runs-on: self-hosted
         steps:
             - name: Checkout
               uses: actions/checkout@v3
@@ -84,6 +84,15 @@ jobs:
               run: |
                   docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
 
-            - name: Verify image can be pulled
+            - name: Stop and remove existing container
               run: |
-                  echo "Image successfully pulled and ready for deployment"
+                  docker stop text-summarizer || true
+                  docker rm text-summarizer || true
+
+            - name: Run Docker Image to serve users
+              run: |
+                  docker run -d -p 8080:8080 --name text-summarizer ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
+
+            - name: Clean up old images
+              run: |
+                  docker image prune -af
