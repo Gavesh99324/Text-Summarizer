@@ -48,13 +48,6 @@ Now,
 open up you local host and port
 ```
 
-```bash
-Author: Krish Naik
-Data Scientist
-Email: krishnaik06@gmail.com
-
-```
-
 # AWS-CICD-Deployment-with-Github-Actions
 
 ## 1. Login to AWS console.
@@ -125,3 +118,6 @@ Email: krishnaik06@gmail.com
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+Watch Demo: https://www.loom.com/share/d95bf09663534144ab6d1c852269fe46
+            https://www.loom.com/share/b60356ae4ead44f09c7c1dd34b612b5e
