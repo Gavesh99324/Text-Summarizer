@@ -113,11 +113,11 @@ open up you local host and port
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION = 
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI =
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = 
 
 Watch Demo: https://www.loom.com/share/d95bf09663534144ab6d1c852269fe46
             https://www.loom.com/share/b60356ae4ead44f09c7c1dd34b612b5e
